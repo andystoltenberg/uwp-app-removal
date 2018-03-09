@@ -5,3 +5,7 @@ A PowerShell tool that takes inventory of installed Universal Windows Platform (
 This was created as a proof-of-concept tool as well as a PowerShell learning exercise. This tool has not been recently maintained and is only semi-functional. I encountered some issues with the tool that have yet to be resolved.
 
 There are two versions of this tool that have been included in this repository. Each attempt utilizes different PowerShell code but both are attempts at reaching the same functional goal.
+
+Please ensure you have the appropriate PowerShell execution policy set to run this script locally. For more information on PowerShell execution policies, use: Get-Help Set-ExecutionPolicy -Full
+
+Once this tool is executed, you will be presented with a menu of options to choose from to perform specific UWP application-related actions.
