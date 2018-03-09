@@ -1,0 +1,129 @@
+To get listing of all apps:
+
+Get-AppxPackage -allusers
+
+OR
+
+Get-AppxPackage | Select Name, PackageFullName
+
+===
+
+*3D builder:
+
+Get-AppxPackage *3dbuilder* | Remove-AppxPackage
+
+*Alarms and Clock:
+
+Get-AppxPackage *windowsalarms* | Remove-AppxPackage
+
+*Calculator:
+
+Get-AppxPackage *windowscalculator* | Remove-AppxPackage
+
+*Calendar/Mail:
+
+Get-AppxPackage *windowscommunicationsapps* | Remove-AppxPackage
+
+*Camera:
+
+Get-AppxPackage *windowscamera* | Remove-AppxPackage
+
+*Feedback Hub:
+
+Get-AppxPackage *feedbackhub* | Remove-AppxPackage
+
+*Get Office:
+
+Get-AppxPackage *officehub* | Remove-AppxPackage
+
+*Get Skype:
+
+Get-AppxPackage *skypeapp* | Remove-AppxPackage
+
+*Get Started:
+
+Get-AppxPackage *getstarted* | Remove-AppxPackage
+
+*Groove Music:
+
+Get-AppxPackage *zunemusic* | Remove-AppxPackage
+
+*Maps:
+
+Get-AppxPackage *windowsmaps* | Remove-AppxPackage
+
+*Solitaire Collection:
+
+Get-AppxPackage *solitairecollection* | Remove-AppxPackage
+
+*Messaging:
+
+Get-AppxPackage *Messaging* | Remove-AppxPackage
+
+*Money:
+
+Get-AppxPackage *bingfinance* | Remove-AppxPackage
+
+*Movies & TV:
+
+Get-AppxPackage *zunevideo* | Remove-AppxPackage
+
+*News:
+
+Get-AppxPackage *bingnews* | Remove-AppxPackage
+
+*OneNote:
+
+Get-AppxPackage *onenote* | Remove-AppxPackage
+
+*People:
+
+Get-AppxPackage *people* | Remove-AppxPackage
+
+*Phone Companion:
+
+Get-AppxPackage *windowsphone* | Remove-AppxPackage
+
+*Photos:
+
+Get-AppxPackage *photos* | Remove-AppxPackage
+
+*Sports:
+
+Get-AppxPackage *bingsports* | Remove-AppxPackage
+
+*Sticky Notes:
+
+Get-AppxPackage *microsoftstickynotes* | Remove-AppxPackage
+
+*Voice Recorder:
+
+Get-AppxPackage *soundrecorder* | Remove-AppxPackage
+
+*Weather:
+
+Get-AppxPackage *bingweather* | Remove-AppxPackage
+
+*Wifi & Cellular:
+
+Get-AppxPackage *OneConnect* | Remove-AppxPackage
+
+*Xbox
+
+Get-AppxPackage *xboxapp* | Remove-AppxPackage
+
+*3D Viewer
+
+Get-AppxPackage *Microsoft.Microsoft3DViewer* | Remove-AppxPackage
+
+*3D Paint
+
+Get-AppxPackage *MSPaint* | Remove-AppxPackage
+
+*Contact Support:
+
+Get-AppxPackage *contactsupport* | Remove-AppxPackage
+
+OR
+
+Settings > System -> Apps & Features -> Manage Optional Features page. On that page, you can uninstall Contact Support app.
